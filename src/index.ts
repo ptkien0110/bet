@@ -13,7 +13,7 @@ databaseService.connect()
 app.use(express.json())
 app.use(cookieParser())
 const corsOptions = {
-  origin:[ "http://localhost:3000","http://localhost:3001"],  // Đổi theo frontend của bạn
+  origin:[ "https://biz_tikpii.surge.sh/","https://biz_tikpii.surge.sh/"],  // Đổi theo frontend của bạn
   credentials: true, // Cho phép gửi cookie
 };
 
